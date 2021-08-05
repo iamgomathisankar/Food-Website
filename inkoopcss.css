@@ -1,0 +1,203 @@
+
+
+.scol {
+    position: absolute ; 
+    left: 20%; 
+    top: 10%; 
+
+} 
+li 
+{
+    
+    list-style: none;
+} 
+.para 
+{
+    position: absolute ; 
+    left: 70%; 
+    top: 20%;
+} 
+img 
+{
+    border-radius: 65px; 
+    width: 120px; 
+    height: 120px; 
+    position: relative; left: 18px; top: 10px;
+} 
+.pic 
+{ 
+    position: absolute ; 
+    left: 20%; 
+    top: 60%;
+    display: grid; 
+    grid-template-columns: repeat(5,160px); 
+    grid-area: auto;
+}  
+.foodname {
+    position: relative; left: 18px; 
+    font-size: 18px;
+}
+.test 
+{
+    background-color: #D6D2C4 !important; 
+    border-radius: 20px;
+} 
+.heading 
+{
+    font-size: 30px; 
+    position: relative; 
+    left: 30px; 
+    font-weight: 700;
+} 
+.fcol 
+{
+    position: relative;
+    top: 25px;
+}
+ 
+ul 
+{
+    font-size: 20px;
+} 
+.list-adjustment 
+{
+    position: relative;
+    top: 10px;
+} 
+.list-adjustment1 {
+    position: relative;
+    top: 20px;
+} 
+.list-adjustment2 {
+    position: relative;
+    top: 30px;
+} 
+.list-adjustment3{
+    position: relative;
+    top: 40px;
+}
+.list-adjustment4
+{
+    position: relative;
+    top: 50px;
+} 
+
+.cart {
+    position: relative;
+    top: 70px; 
+    left: 45px; 
+    font-size: 25px;  
+    border: #FE9898 solid 0.5px; 
+    padding: 5px 20px; 
+    border-radius: 20px; 
+    background-color: #FE9898 ;
+}
+
+.pic1 ,.pic2 , .pic3 , .pic4 , .pic5
+{
+    background-color: #e4e3e3 !important; 
+    border-radius: 20px; 
+    height: 98%;
+    width: 92%; 
+    box-shadow: #ebe8e8 10px 2px 5px;
+}  
+.qus 
+{
+    font-size: 60px;
+}
+
+@media (max-width:578px) 
+{
+    ul ,.hid ,.cart ,.pic5
+    {
+        display: none;
+    } 
+    .heading 
+    {
+        text-align: center; 
+        position: relative; 
+        top: -23px;
+    left: 1%; 
+   
+    } 
+    .para 
+    {
+        position: absolute ; 
+        left: 8%;
+        top: 88%;
+        font-size: 26px !important; 
+
+    } 
+    .scol 
+    { 
+        position: relative ; 
+        left: 10%; 
+        top: 10%; 
+        font-size: 20px;
+    } 
+    .pic3 ,.pic4 
+    {
+        position: relative ; 
+    left: 0%; 
+    top: 14%;
+    
+    } 
+   
+    
+    .pic 
+{ 
+    position: absolute ; 
+   left: 12%;
+    top: 33%;
+    display: grid; 
+    grid-template-columns: repeat(2,160px); 
+    grid-area: auto;
+}   
+.qus 
+{
+    font-size: 190% !important; 
+    font-weight: 900;
+} 
+.foodname 
+{
+    position: relative; left: 18px;  
+    font-size: 15px !important;
+}
+    
+}  
+
+
+@media (orientation : landscape) 
+
+{
+    .cartemo ,.menuline
+    {
+        display: none;
+    }
+} 
+
+@media (orientation : portrait) 
+
+{
+    .cartemo 
+    {
+        position: absolute;
+        left: 89%;
+    top: -31px; 
+    font-size: 33px; 
+    color: #FE9898;
+    }
+} 
+@media (orientation : portrait) 
+
+{
+    .menuline 
+    {
+        position: absolute;
+        left: 10%;
+        top: -86px;
+        font-size: 51px;
+        color: #FE9898;
+    }
+}
+
